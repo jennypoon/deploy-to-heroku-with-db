@@ -32,7 +32,7 @@ module.exports = {
       database: 'postgres://yahktiejncwmul:CdM0n3qqYHyaHakyxtSimwAvxv@ec2-54-225-197-143.compute-1.amazonaws.com:5432/d76d3gjf2uerej',
     },
     pool: {
-      min: 2,
+      min: 0,
       max: 10
     },
     migrations: {

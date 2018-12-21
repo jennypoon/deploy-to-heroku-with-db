@@ -29,8 +29,8 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      database: 'postgres://yahktiejncwmul:CdM0n3qqYHyaHakyxtSimwAvxv@ec2-54-225-197-143.compute-1.amazonaws.com:5432/d76d3gjf2uerej',
-    },
+    DATABASE_URL: 'postgres://amzzlpqiqwenog:25b267c9bbfb691b71f955e669ef81a8e02728a60a4b759345461d8dcf8e7bfc@ec2-54-225-150-216.compute-1.amazonaws.com:5432/dcbkfq1btiei6t'
+  },
     pool: {
       min: 2,
       max: 10
